@@ -88,9 +88,3 @@ The primary goals of the project were:
 - **Improved review system**: Allow users to filter and sort reviews based on rating or date.
 - **Enhanced performance**: Optimize image loading and site speed for better user experience.
 
-## Conclusion
-
-The **FINBEA ARREDAMENTI** website provides a clean and interactive platform for users to explore home furnishings and share feedback. By integrating PHP, JavaScript, HTML, and CSS, the project ensures dynamic content handling, a responsive interface, and an engaging user experience. The website meets the objectives of providing a flexible and interactive tool for both customers and the furniture company.
-
----
-
