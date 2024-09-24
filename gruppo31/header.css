@@ -1,0 +1,55 @@
+/*HEADER*/
+body{
+  background-color: rgb(255, 248, 220);
+}
+.toolbar > ul > li{
+  float:left;
+}
+.toolbar > ul > li > a{
+  display: block;
+  text-decoration:  none;
+  padding: 10px 12px;
+  background-color:rgb(225, 193, 153);
+  color: black;
+  font-size: 22px;
+  font-weight: 600;
+}
+.toolbar > ul > li > a:hover{
+  background-color:#e5deca;
+}
+
+#log_dx{
+  float:right;
+  position: relative;
+  right: 50px;
+}
+.toolbar > ul {
+  list-style-type: none;
+  background-color:rgb(225, 193, 153);
+  overflow: hidden;
+  width: 100%;
+  margin-left: 10px;
+  margin: 0;
+}
+.logo{
+  display: block;
+  margin:0 auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  align-items: center;
+  width: 20%;
+  padding-top: 0;
+}
+.header{
+  background-color: #e5deca;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.home{
+  display: box;
+  margin: 0 auto;
+  align-items: center;
+  padding-top: 0;
+  padding: 3px;
+
+}

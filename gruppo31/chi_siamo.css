@@ -1,0 +1,113 @@
+.story_te{
+  color: black;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 500;
+  text-align: left;
+  position: relative;
+  top: auto;
+  bottom: auto;
+  left: 60px;
+  width: 90%;
+  padding: 40px;
+}
+.story_ti > h1{
+  color: black;
+  font-size: 40px;
+  font-weight: 600;
+  position: relative;
+  left: 50px;
+}
+.foto_artigiano{
+  position: relative;
+  float: left;
+  top: 25px;
+  max-width: 100%;
+  left: 40px;
+  border-radius: 5%;
+}
+.people-container{
+  font-size: 1rem;
+  line-height: 1.6;
+  font-family: 'Open Sans',sans-serif;
+  display: block;
+  position: relative;
+  text-align: center;
+  background-color: #ffffff;
+  background-image: none;
+  min-height: 693px;
+}
+.up-container{
+  height: 356px;
+  background-image: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: lightgrey;
+  width: 100%;
+  margin-left: 0 ;
+  margin-right: 0;
+}
+.people-list{
+text-align: center;
+box-sizing: border-box;
+position: relative;
+display: flex;
+margin: -286px auto 60px;
+width: 90%;
+flex-wrap: wrap;
+display: flex;
+}
+
+.internal-container{
+display: grid;
+grid-template-columns: repeat(4, 25%);
+min-height: 456px;
+}
+
+.person-container{
+box-sizing: border-box;
+text-align: center;
+display: flex;
+position: relative;
+color: #111111;
+background-color: #ffffff;
+background-image: none;
+margin-left: auto;
+}
+.person-div{
+max-width: 100%;
+display: flex;
+flex-direction: column;
+padding: 30px;
+}
+.person-imagine{
+  display: block;
+  vertical-align: middle;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  color: #111111;
+  border-radius: 50% ;
+  width: 240px;
+  height: 240px;
+  /*ricordarsi di levare background image  quando carichiamo le foto nostre*/
+  background-image: url("//images01.nicepage.com/c461c07a441a5d220e8feb1a/419762353998565d9d3ad760/1.jpg");
+  background-position: 50% 50%;
+  margin: 0 auto;
+}
+h3{
+box-sizing: border-box;
+line-height: 1.2;
+display: table;
+align-self: flex-start;
+flex-shrink: 0;
+text-align: center;
+word-wrap: break-word;
+position: relative;
+color: #848475;
+padding: 0;
+font-weight: 500;
+text-transform: none;
+font-size: 1.875rem;
+margin: 20px auto 0;
+}

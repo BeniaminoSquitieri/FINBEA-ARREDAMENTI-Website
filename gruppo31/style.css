@@ -1,0 +1,252 @@
+/*HEADER*/
+body{
+  background-color: #e5deca;
+}
+.toolbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(243,241,233,0.8);
+  overflow: hidden;
+}
+
+.toolbar li {
+  float: left;
+}
+
+.toolbar li:last-of-type{
+  float: right;
+}
+
+.toolbar li a{
+  display: block;
+  padding: 12px 14px;
+  background-color: rgb(243,241,233,0.8);
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 550;
+  font-style: italic;
+}
+.toolbar li a:hover{
+  background-color:#e5deca;
+}
+.attivo{
+  background-color: rgb(243,241,233,0.8);
+}
+#logo_id{
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+.flex {
+  max-width: 100%
+}
+
+#log_dx{
+  float: right;
+}
+
+
+/* HOME */
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* per nascondere le immagini di default */
+.mySlides {
+  display: none;
+}
+
+/* Bottoni per andare avanti e indietro */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Posiziona il bottone a destra */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Al passaggio del mouse, aggiungiamo un colore di sfondo nero leggermente trasparente */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #717171;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Indicatori dei punti/cerchi sotto le immagini\ */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Effetto fading per far apparire le immagini sfocate all'inizio per qualche secondo */
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+/* uso della parola chiave @keyframes  */
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/* GALLERY */
+.Gallery{
+  background-color: #FFFAFA;
+}
+
+.collezioni {
+    width: 90%;
+    height: 15em;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin-top: 2.5em;
+    margin-bottom: 3.5em;
+    margin-right: 5.0em;
+
+  }
+  .collezioni > .immagine{
+    height: 100%;
+    width: 40%;
+    margin-left: 3%;
+
+  }
+.collezioni > .immagine img  {
+    width: 100%;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+    border-radius: 20%;
+
+}
+.Titolo {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    height :100%;
+    width: 100%;
+    text-align: left;
+    margin-left: 3%;
+}
+.collezioni h2 {
+    font-size: 2em;
+    font-weight: bold;
+    width: 100%;
+    height: 30%;
+  }
+.collezioni h4{
+  height: 70%;
+  width: 100%;
+}
+
+.collezioni h2,h4{
+  text-align: center;
+}
+
+
+
+/* COMPOSIZIONE*/
+
+.Arredamento > .immagine{
+  width: 50%;
+  height: 30%;
+  margin-left: 28%;
+}
+.Arredamento h2, h4{
+  text-align: center;
+}
+.Arredamento > .immagine img{
+  width: 100%;
+  height: 10%;
+  border-radius: 10%;
+}
+
+
+/* MOBILI*/
+.body-container{
+  box-sizing: border-box;
+  background-color: #f1f1f1;
+  font-family: Arial;
+  margin-top: 5%;
+  padding-left: 20%;
+  padding-right: 5%;
+}
+.immagine h2{
+  font-size: 30%;ss
+}
+.body-container h2, h4 {
+  font-size: 10%;
+  word-break: break-all;
+}
+.colonna  {
+  width: 100%;
+  padding: 1%;
+}
+.colonna img{
+  width: 50%;
+  padding-left: 10%;
+}
+.Mobile{
+  width: 30%;
+  display: inline-grid;
+  border-color: red;
+  border:  solid brown;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+
+}
+
+/* Clear floats after rows */
+.body-container > .Mobile :after {
+  content: "";
+  display: grid;
+  clear: both;
+}

@@ -1,0 +1,47 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  overflow: hidden;
+}
+
+li {
+  display: inline;
+  float: left;
+}
+
+a{
+  display: block;
+  padding: 8px;
+  background-color: #000000;
+}
+.active{
+  background-color: #000000;
+}
+#home{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 24px;
+  font-style: italic;
+}
+#gallery{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 24px;
+  font-style: italic;
+}
+#chi_siamo{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 24px;
+  font-style: italic;
+}
+#login{
+  position: absolute;
+  text-decoration: none;
+  font-size: 24px;
+  font-style: italic;
+  right: 20px;
+  color: #ffffff;
+}

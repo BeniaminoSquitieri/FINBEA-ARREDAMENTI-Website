@@ -1,0 +1,86 @@
+
+.Gallery{
+  background-color: #F5F5DC;
+}
+.container > .collezioni > .Titolo :first-child{
+  background-color: #FAEBD7;
+}
+
+.collezioni {
+    width: 100%;
+    height: 15em;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin-top: 2.5em;
+    margin-bottom: 5em;
+    margin-right: 5.0em;
+    border-radius: 12px 12px 12px 12px;
+
+
+    }
+  .collezioni > .immagine{
+    height: 100%;
+    width: 40%;
+    padding-left: 5%;
+  }
+.collezioni > .immagine img  {
+    width: 100%;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+    border-radius: 12%;
+
+}
+.Titolo {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    height :100%;
+    width: 100%;
+    text-align: left;
+}
+
+.collezioni h2 {
+    font-size: 150%;
+    font-weight: bold;
+    width: 100%;
+    height: 50%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    text-decoration-style:double;
+
+  }
+.collezioni h4{
+  height: 100%;
+  width: 100%;
+}
+.slogan{
+  shape-outside: circle();
+  border-top-left-radius: 90% 90%;
+  border-top-right-radius: 90% 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  height: 15%;
+}
+
+
+.collezioni h2,h4{
+  text-align: center;
+  font-family: "Garamond"  , Serif;
+}
+
+.avviso *{
+  font-family: "Garamond", cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+.avviso a{
+  text-decoration: none;
+  color: grey;
+}
